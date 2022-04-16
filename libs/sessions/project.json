@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/sessions",
+  "sourceRoot": "libs/sessions/src",
+  "prefix": "glow-workspace",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/sessions"],
+      "options": {
+        "jestConfig": "libs/sessions/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/sessions/src/**/*.ts",
+          "libs/sessions/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
