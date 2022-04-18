@@ -6,6 +6,7 @@
     "customer-portal": "apps/customer-portal",
     "customer-portal-e2e": "apps/customer-portal-e2e",
     "layout": "libs/layout",
-    "sessions": "libs/sessions"
+    "sessions": "libs/sessions",
+    "shared": "libs/shared"
   }
 }
