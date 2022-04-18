@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@glow-workspace/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@glow-workspace/layout": ["libs/layout/src/index.ts"],
       "@glow-workspace/sessions": ["libs/sessions/src/index.ts"]
     }
   },
