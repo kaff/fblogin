@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<glo-header (toggleSitebar)="onSitebarToggle()"></glo-header>
+
+<mat-drawer-container>
+  <mat-drawer mode="side" [opened]="siteBarOpened">
+    <glo-sidebar></glo-sidebar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<glo-footer></glo-footer>
