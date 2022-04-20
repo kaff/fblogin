@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardPageRoutingModule } from './dashboard-page-routing.module';
 import { DashboardPageComponent } from "./dashboard-page.component";
 import { MatDividerModule } from '@angular/material/divider';
+import {ChartAreaComponentModule} from "@glow-workspace/shared";
 
 @NgModule({
   declarations: [DashboardPageComponent],
@@ -10,6 +11,7 @@ import { MatDividerModule } from '@angular/material/divider';
     CommonModule,
     DashboardPageRoutingModule,
     MatDividerModule,
+    ChartAreaComponentModule,
   ],
   exports: [
     DashboardPageComponent
