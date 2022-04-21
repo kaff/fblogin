@@ -4,6 +4,8 @@ import { DashboardPageRoutingModule } from './dashboard-page-routing.module';
 import { DashboardPageComponent } from "./dashboard-page.component";
 import { MatDividerModule } from '@angular/material/divider';
 import {ChartAreaComponentModule} from "@glow-workspace/shared";
+import {FlexLayoutModule} from "@angular/flex-layout";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [DashboardPageComponent],
@@ -12,6 +14,8 @@ import {ChartAreaComponentModule} from "@glow-workspace/shared";
     DashboardPageRoutingModule,
     MatDividerModule,
     ChartAreaComponentModule,
+    FlexLayoutModule,
+    MatCardModule,
   ],
   exports: [
     DashboardPageComponent
