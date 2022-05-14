@@ -4,6 +4,10 @@
 
 export const environment = {
   production: false,
+  appId: 4888000821327845,
+  appSecret: 'da832699a928d7d1e73d2a1bb64c1156',
+  verifyToken: '__VERIFY_TOKEN_RANDOM_TOKEN__',
+  botAppWebhookUrl: 'https://0c10-185-253-232-124.ngrok.io/',
 };
 
 /*

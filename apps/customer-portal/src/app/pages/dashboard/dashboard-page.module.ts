@@ -6,6 +6,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import {ChartAreaComponentModule} from "@glow-workspace/shared";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatCardModule} from "@angular/material/card";
+import {HttpClientModule} from "@angular/common/http";
+import {HttpFbService} from "./http-fb.service";
 
 @NgModule({
   declarations: [DashboardPageComponent],
@@ -16,6 +18,10 @@ import {MatCardModule} from "@angular/material/card";
     ChartAreaComponentModule,
     FlexLayoutModule,
     MatCardModule,
+    HttpClientModule,
+  ],
+  providers: [
+    HttpFbService,
   ],
   exports: [
     DashboardPageComponent

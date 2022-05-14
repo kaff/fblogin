@@ -6,10 +6,12 @@
 
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-cards">
   <mat-card fxFlex="25">
-
+    <div>
+      <button mat-button type="button" (click)="loginWithFacebook()" >Signin with Facebook</button>
+    </div>
   </mat-card>
   <mat-card fxFlex="25">
-
+    <button type="button" (click)="signOut()" >Sign Out</button>
   </mat-card>
   <mat-card fxFlex="25">
 
